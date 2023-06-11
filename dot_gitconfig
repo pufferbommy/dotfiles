@@ -1,0 +1,9 @@
+[user]
+	email = pufferbommy@gmail.com
+	name = pufferbommy
+
+[includeIf "gitdir/i:~/workspaces/personal/"]
+	path = ~/workspaces/personal/.gitconfig
+
+[includeIf "gitdir/i:~/workspaces/work/"]
+	path = ~/workspaces/work/.gitconfig
